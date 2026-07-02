@@ -20,6 +20,7 @@ Because this is my first deep dive into AWS, I am actively building skills in:
 * **Content Delivery:** Learning how caching and edge locations work via a CDN to optimize web services.
 
 ## Future Roadmap
-- [ ] Upload initial HTML and CSS files to S3.
+- [ ] Create initial HTML and CSS files.
+- [ ] Upload HTML and CSS files to S3.
 - [ ] Configure S3 bucket for static website hosting.
 - [ ] Point a CloudFront distribution to the bucket for global delivery.
