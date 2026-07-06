@@ -1,4 +1,3 @@
-# cloud-resume-site
 # My First Cloud Project: Static Resume Website
 
 As a UX/UI designer pivoting into systems architecture, this project marks my first time setting up and configuring live cloud services.
@@ -24,3 +23,5 @@ Because this is my first deep dive into AWS, I am actively building skills in:
 - [ ] Upload HTML and CSS files to S3.
 - [ ] Configure S3 bucket for static website hosting.
 - [ ] Point a CloudFront distribution to the bucket for global delivery.
+
+![AWS Architectural Diagram](assets/static-resume-architecture.png)
