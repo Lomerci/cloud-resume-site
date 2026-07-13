@@ -67,17 +67,6 @@
         </ul>
         </div>
         
-        <div class = "google">
-        <div class = "headline">
-            <p><b>Product Tester</b> - Google Accessibility Tester Program | Remote</p>
-            <p>September 2024 - Present</p>
-        </div>
-        <ul>
-            <li>Provide detailed accessibility and navigation feedback across 20+ product interfaces, improving usability scores by 15–25% and supporting full WCAG 2.1 compliance</li>
-            <li>Complete quarterly surveys and structured reports that generate actionable insights, influencing 10+ product updates and guiding upcoming feature iterations</li>
-        </ul>
-        </div>
-
         <div class = "dtw">
             <div class = "headline">
                 <p><b>Freelance UI/UX Designer</b> - DTW (Dividing the Word of Truth) | Remote</p>
@@ -85,15 +74,47 @@
             </div>
             <ul>
                 <li>Architected user flows and information hierarchies for applications, optimizing and strengthening overall system usability</li>
-                <li>Created over 30 wireframes, mockups, and interactive prototypes that streamline navigation and increase accessibility compliance across platforms</li>
-                <li>Optimized visual design and accessibility, contributing to WCAG‑aligned improvements and lowering user‑reported issues by 15%</li>
+                <li>Tested web pages against basic accessibility rules (WCAG) to make sure the text, colors, and buttons work well for people with disabilities</li>
+                <li>Created over 30 wireframes, mockups and interactive prototypes that streamline and improve navigation by 15% </li>
             </ul>
         </div>
+
+        <div class = "empowered">
+        <div class = "headline">
+            <p><b>UI Design Intern</b> - Empowered Hands | Houston, Texas</p>
+            <p>November 2023 - February 2024</p>
+        </div>
+        <ul>
+            <li>Collaborated directly with the founder to design the front-end layout and navigation structure of the website, focusing on clear site logic and a smooth user experience</li>
+            <li>Produced and managed digital media assets, including graphics and event banners, ensuring consistent formatting and optimization for web deployment</li>
+            <li>Refined designs through feedback, aligning improvements with best practices and accessibility standards</li>
+        </ul>
+        </div>
+
     </div>
     </div>
 
-    <div>
-    <button>Download the PDF</button>
-    </div>
+    <div class="button-container">
+  <button 
+    type="button" 
+    class="download-btn"
+    aria-label="Download Resume as a PDF file"
+    onclick="downloadPDF()">
+    Download PDF
+  </button>
+</div>
+
+<script>
+  function downloadPDF() {
+    const pdfUrl = 'assets/Buniechukwu-Emegwa-Tech-Resume.pdf'; 
+    
+    const link = document.createElement('a');
+    link.href = pdfUrl;
+    link.download = 'Buniechukwu-Emegwa-Tech-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
 </body>
 </html>

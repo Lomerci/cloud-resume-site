@@ -56,10 +56,38 @@ h2 {
     margin: 10px 10px;
 }
 
-button {
-    background-color: #e2e8f0;
-    color: black;
-    padding: 15px;
-    margin-top: 30px;
-    border-radius: 4px;
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+
+.download-btn {
+  background-color: #1f2937;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 24px;
+  border: 2px solid #1f2937;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.download-btn:hover {
+  background-color: #ffffff;
+  color: #2563eb;            
+  border-color: #2563eb;
+}
+
+.download-btn:focus-visible {
+  outline: 3px solid #38bdf8;
+  outline-offset: 2px;
+}
+
+.download-btn:active {
+  transform: scale(0.98);
 }
