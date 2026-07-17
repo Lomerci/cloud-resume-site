@@ -24,7 +24,11 @@ h1 {
     font-size: 25px;
 }
 
-h1, #contact p {
+#contact-addition {
+    font-size: 13px;
+}
+
+h1, #contact-addition {
     text-align: center;
 }
 
@@ -45,9 +49,28 @@ h2 {
     justify-content: space-between;
 }
 
-#contact ul {
-    display: flex;
-    justify-content: space-around;
+.contact-info {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap;
+  gap: 15px;
+  font-size: 15px;
+}
+
+.contact-info a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.contact-info span:not(:last-child)::after {
+  content: "|";
+  margin-left: 15px;     
+  color: #94a3b8;        
 }
 
 #certification li, 
