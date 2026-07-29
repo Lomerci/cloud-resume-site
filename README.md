@@ -20,7 +20,7 @@ Because this is my first deep dive into AWS, I am actively building skills in:
 
 ## Future Roadmap
 - [X] Create initial HTML and CSS files.
-- [ ] Upload HTML and CSS files to S3.
+- [x] Upload HTML and CSS files to S3.
 - [X] Configure S3 bucket for static website hosting.
 - [ ] Point a CloudFront distribution to the bucket for global delivery.
 
